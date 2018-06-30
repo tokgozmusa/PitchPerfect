@@ -26,16 +26,14 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TeK-OY-Iw1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvA-KZ-SIq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvA-KZ-SIq">
                                 <rect key="frame" x="134" y="366" width="107" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6R-6a-uFY">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6R-6a-uFY">
                                 <rect key="frame" x="136" y="395" width="106" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stop Recording"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LUD-aj-AL6"/>
@@ -45,7 +43,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UFu-kg-RBd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="JFg-FA-T6Z"/>
+                            <constraint firstItem="g6R-6a-uFY" firstAttribute="top" secondItem="YvA-KZ-SIq" secondAttribute="bottom" constant="8" id="Uo3-0J-Qzv"/>
+                            <constraint firstItem="YvA-KZ-SIq" firstAttribute="centerX" secondItem="UFu-kg-RBd" secondAttribute="centerX" id="XaV-TG-iuM"/>
                             <constraint firstItem="UFu-kg-RBd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gSz-PJ-f2w"/>
+                            <constraint firstItem="g6R-6a-uFY" firstAttribute="centerX" secondItem="YvA-KZ-SIq" secondAttribute="centerX" id="i27-Ca-99e"/>
+                            <constraint firstItem="YvA-KZ-SIq" firstAttribute="top" secondItem="UFu-kg-RBd" secondAttribute="bottom" constant="8" id="xw8-3W-RnW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
