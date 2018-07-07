@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="110.19490254872565"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="Nxj-Jp-xwJ">
             <objects>
-                <viewController id="Taj-hV-vKF" sceneMemberID="viewController">
+                <viewController id="Taj-hV-vKF" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bKH-uk-2Lf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
