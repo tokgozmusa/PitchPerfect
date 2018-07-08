@@ -6,4 +6,4 @@
 
 ### TODOs
 - Add swiftlint
-- Add (CI)(https://docs.travis-ci.com/user/languages/objective-c/)
+- Add [CI](https://docs.travis-ci.com/user/languages/objective-c/)
